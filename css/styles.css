@@ -655,9 +655,6 @@ letter-spacing: 0.04em;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 64px;
-  margin-left:0 auto;
-
-  border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -666,6 +663,7 @@ letter-spacing: 0.04em;
   letter-spacing: 0.04em;
   background-color: var(--primary-accent);
   color: var(--tertiary-text);
+  border-radius: 4px;
 }
 
 .footer-sub-btn:hover,
@@ -675,11 +673,12 @@ letter-spacing: 0.04em;
 
 
 .footer-sub-icon {
-  position: absolute;
+
+  pointer-events: none;
+
   fill: currentColor;
   color: #ffffff;
 }
-
 
 /* ! PORTFOLIO */
 
