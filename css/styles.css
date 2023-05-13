@@ -607,6 +607,17 @@ section {
 
 /* *FOOTER SUBSCRIBE FORM */
 
+.footer-sub-input {
+width: 264px;
+height: 40px;
+padding: 8px 16px;
+
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: var(--secondary-bg);
+}
+
 .footer-sub-title {
   margin-bottom: 16px;
   font-size: 16px;
