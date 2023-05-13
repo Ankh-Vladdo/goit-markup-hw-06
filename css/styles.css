@@ -293,7 +293,6 @@ section {
   margin-left: auto;
   margin-right: auto;
   box-shadow: var(hero-btn-box-shadow);
-  border: none;
   border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
@@ -606,6 +605,40 @@ section {
   color: var(--tertiary-bg);
 }
 
+/* *FOOTER SUBSCRIBE FORM */
+
+.footer-subscribe-text {
+margin-bottom: 16px;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--tertiary-text);
+}
+
+.footer-subscribe-btn{
+  transition: background-color var(--animation-hover-focus-fast);
+
+  display: block;
+  min-width: 169px;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-accent);
+  color: var(--tertiary-text);
+}
+
+
 /* ! PORTFOLIO */
 
 /* ? MENU FILTER BUTTON */
@@ -843,14 +876,12 @@ section {
   margin-left: auto;
   margin-right: auto;
 
-  display: flex;
   align-items: center;
   text-align: center;
 
   background-color: var(--primary-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -859,4 +890,8 @@ section {
   letter-spacing: 0.04em;
   text-decoration: none;
   color: var(--tertiary-text);
+}
+
+.modal-icon {
+
 }
