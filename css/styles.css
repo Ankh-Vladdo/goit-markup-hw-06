@@ -607,7 +607,7 @@ section {
 
 /* *FOOTER SUBSCRIBE FORM */
 
-.footer-subscribe-text {
+.footer-sub-text {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
@@ -616,8 +616,9 @@ section {
   color: var(--tertiary-text);
 }
 
-.footer-subscribe-btn {
+.footer-sub-btn {
   transition: background-color var(--animation-hover-focus-fast);
+  position: relative;
 
   display: block;
   min-width: 169px;
@@ -625,8 +626,8 @@ section {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 64px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:0 auto;
+
   border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
@@ -638,14 +639,19 @@ section {
   color: var(--tertiary-text);
 }
 
-.footer-subscribe-btn:hover,
-.footer-subscribe-btn:focus {
+.footer-sub-btn:hover,
+.footer-sub-btn:focus {
   background-color: var(--secondary-accent);
 }
 
-.footer-subscribe-email::placeholder {
+.footer-sub-email::placeholder {
   color: #ffffff;
 }
+
+.footer-sub-icon {
+  position: absolute;
+}
+
 
 /* ! PORTFOLIO */
 
