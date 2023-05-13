@@ -633,6 +633,9 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 }
 
+.footer-sub-input::placeholder {
+  color: #ffffff;
+}
 .footer-sub-title {
   margin-bottom: 16px;
   font-size: 16px;
@@ -670,12 +673,11 @@ letter-spacing: 0.04em;
   background-color: var(--secondary-accent);
 }
 
-.footer-sub-email::placeholder {
-  color: #ffffff;
-}
 
 .footer-sub-icon {
   position: absolute;
+  fill: currentColor;
+  color: #ffffff;
 }
 
 
