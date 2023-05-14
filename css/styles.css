@@ -607,15 +607,21 @@ section {
 
 /* *FOOTER SUBSCRIBE FORM */
 
-.footer-sub-form {
+.footer-sub-wrapper {
   display: block;
   margin-left: 80px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-sub-input {
 width: 264px;
 height: 40px;
 padding: 8px 16px;
+margin-right: 24px;
 resize: none;
 
 outline: transparent;
@@ -627,7 +633,7 @@ background-color: var(--secondary-bg);
 
 transition: var(--animation-hover-focus-fast);
 
-color: rgba(46, 47, 66, 0.4);
+color: #ffffff;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
@@ -647,14 +653,14 @@ letter-spacing: 0.04em;
 
 .footer-sub-btn {
   transition: background-color var(--animation-hover-focus-fast);
-  position: relative;
 
-  display: block;
-  min-width: 169px;
-  padding-left: 24px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 64px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  min-width: 165px;
+  padding: 8px 24px;
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -671,13 +677,11 @@ letter-spacing: 0.04em;
   background-color: var(--secondary-accent);
 }
 
-
 .footer-sub-icon {
-
   pointer-events: none;
-
   fill: currentColor;
   color: #ffffff;
+  margin-left: 16px;
 }
 
 /* ! PORTFOLIO */
