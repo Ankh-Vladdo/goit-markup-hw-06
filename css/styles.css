@@ -1003,8 +1003,8 @@ section {
 .form-agreement {
   display: flex;
   gap: 8px;
-  justify-content: center;
   margin-bottom: 24px;
+
 }
 
 .form-agreement-text {
