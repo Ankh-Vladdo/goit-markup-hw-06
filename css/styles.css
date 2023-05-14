@@ -618,25 +618,25 @@ section {
 }
 
 .footer-sub-input {
-width: 264px;
-height: 40px;
-padding: 8px 16px;
-margin-right: 24px;
-resize: none;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  resize: none;
 
-outline: transparent;
-outline-offset: -1px;
-border: 1px solid #FFFFFF;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: var(--secondary-bg);
+  outline: transparent;
+  outline-offset: -1px;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--secondary-bg);
 
-transition: var(--animation-hover-focus-fast);
+  transition: var(--animation-hover-focus-fast);
 
-color: #ffffff;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .footer-sub-input::placeholder {
